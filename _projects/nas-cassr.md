@@ -22,11 +22,11 @@ Footstep planning is a combinatorial search problem: which surface each foot ste
 
 ## Abstracts
 
-### NAS: N-step computation of All Solutions to the footstep planning problem
+### NAS: N-step computation of all solutions to the footstep planning problem
 
 How many ways are there to climb a staircase in a given number of steps? Infinitely many, if we focus on the continuous aspect of the problem. A finite, possibly large number if we consider the discrete aspect, i.e. on which surface which effectors are going to step and in what order. We introduce NAS, an algorithm that considers both aspects simultaneously and computes all the possible solutions to such a contact planning problem, under standard assumptions. To our knowledge NAS is the first algorithm to produce a globally optimal policy, efficiently queried in real time for planning the next footsteps of a humanoid robot. Our empirical results (in simulation and on the Talos platform) demonstrate that, despite the theoretical exponential complexity, optimisations reduce the practical complexity of NAS to a manageable bilinear form, maintaining completeness guarantees and enabling efficient GPU parallelisation. NAS is demonstrated in a variety of scenarios for the Talos robot, both in simulation and on the hardware platform. Future work will focus on further reducing computation times and extending the algorithm's applicability beyond gaited locomotion.
 
-### CASSR: Continuous A-Star Search through Reachability for real time footstep planning
+### CASSR: continuous A-Star search through reachability for real time footstep planning
 
 <img src="{{ '/assets/img/projects/cassr-scenario.jpg' | relative_url }}" alt="CASSR: Talos planning a sequence of footsteps over stepping stones" style="max-width: 50%; float: right; margin: 0 0 1rem 1rem" />
 
@@ -50,7 +50,7 @@ BibTeX entries are available from the [publications](/publications/) page. CASSR
 ## Videos
 
 **NAS**
-{% include youtube.liquid id="I5yFe0ez0sI" title="NAS: N-step computation of All Solutions to the footstep planning problem" %}
+{% include youtube.liquid id="I5yFe0ez0sI" title="NAS: N-step computation of all solutions to the footstep planning problem" %}
 
 **CASSR**
-{% include youtube.liquid id="reDGK-VXg9k" title="CASSR: Continuous A-Star Search through Reachability for real time footstep planning" %}
+{% include youtube.liquid id="reDGK-VXg9k" title="CASSR: continuous A-Star search through reachability for real time footstep planning" %}

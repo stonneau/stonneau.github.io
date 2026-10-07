@@ -27,16 +27,16 @@ The result is an extremely fast and reliable approach to generate valid centroid
 
 ## Materials
 
-**TOG journal.** The introductory paper, which only applies to the quasi-static case: "2PAC: Two Point Attractors for Center of Mass Trajectories in Multi Contact Scenarios"
+**TOG journal.** The introductory paper, which only applies to the quasi-static case: "2PAC: two point attractors for center of mass trajectories in multi contact scenarios"
 [Paper]({{ '/assets/pdf/tonneau2018pac.pdf' | relative_url }}) &middot;
 [Video 1](https://youtu.be/PvOoMSlKoxE) &middot;
 [Video 2](https://youtu.be/iD9JaV0LPyw)
 
-**IROS 2018 conference paper.** A complementary approach for the dynamic case: "CROC: Convex Resolution Of Centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem"
+**IROS 2018 conference paper.** A complementary approach for the dynamic case: "CROC: convex resolution of centroidal dynamics trajectories to provide a feasibility criterion for the multi contact planning problem"
 [Paper]({{ '/assets/pdf/fernbach2018croc.pdf' | relative_url }}) &middot;
 [Video](https://youtu.be/xmPrdAUOTa4)
 
-**T-RO journal paper.** "C-CROC: Continuous and Convex Resolution of Centroidal dynamic trajectories for legged robots in multi-contact scenarios". A continuous version of CROC, thanks to a generic decomposition method that could apply to any centroidal method of the state of the art. If you read only one paper, you should read this one.
+**T-RO journal paper.** "C-CROC: continuous and convex resolution of centroidal dynamic trajectories for legged robots in multi-contact scenarios". A continuous version of CROC, thanks to a generic decomposition method that could apply to any centroidal method of the state of the art. If you read only one paper, you should read this one.
 [Paper](https://hal.science/hal-01894869/document) &middot;
 [Video](https://youtu.be/oKKlShZvcs4)
 

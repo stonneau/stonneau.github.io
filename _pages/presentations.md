@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /presentations/
-title: presentations
+title: Presentations
 description: Talks and classes.
 nav: true
 nav_order: 5
@@ -23,7 +23,7 @@ In October 2020 I gave a presentation on our recent work with SL1M (see [below](
 
 {% include youtube.liquid id="qnvIrqgsW8U" title="TUB talk: the contact planning problem for legged robots" %}
 
-### SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain
+### SL1M: sparse L1-norm minimization for contact planning on uneven terrain
 
 ICRA 2020 presentation of SL1M. See the [SL1M project page](/projects/sl1m/).
 

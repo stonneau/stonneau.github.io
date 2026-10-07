@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /supervision/
-title: supervision
+title: Supervision
 description: Working with me as a PhD student, and the students and post-docs I work or have worked with.
 nav: true
 nav_order: 7

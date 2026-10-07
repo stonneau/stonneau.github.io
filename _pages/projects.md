@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Groups of publications that share conceptual ideas or belong to the same research project.
 nav: true

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Reader (Associate Professor) &middot; <a href="https://www.inf.ed.ac.uk/" target="_blank">School of Informatics</a>, University of Edinburgh
 

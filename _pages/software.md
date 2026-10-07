@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /software/
-title: software
+title: Software
 description: The main software projects where I have significantly contributed or that I use extensively.
 nav: true
 nav_order: 4

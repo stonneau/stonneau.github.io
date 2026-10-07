@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /contact/
-title: contact
+title: Contact
 description: How to reach me at the University of Edinburgh.
 nav: true
 nav_order: 8

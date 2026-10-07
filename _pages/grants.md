@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /grants/
-title: grants
+title: Grants
 description: Funded projects I have been involved in, with their results, and the awards that came with them.
 nav: true
 nav_order: 6
@@ -29,7 +29,7 @@ MEMMO aims at generating complex movements for robots with any combination of ar
 
 **Award:** [Étoiles de l'Europe](#awards) (2022).
 
-### ENTRACTE: Understanding and planning anthropomorphic action (ANR, 2013-2017)
+### ENTRACTE: understanding and planning anthropomorphic action (ANR, 2013-2017)
 
 French national project ([ANR-13-CORD-0002](https://anr.fr/Projet-ANR-13-CORD-0002), programme CONTINT 2013), from October 2013 for 42 months, coordinated by Nicolas Mansard (LAAS-CNRS) with Inria Rennes - Bretagne Atlantique (Mimetic team). ANR funding: 688 228 &euro;. I worked on it first as a PhD student at IRISA and then as a post-doc at LAAS-CNRS (2015-2018).
 

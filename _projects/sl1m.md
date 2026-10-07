@@ -29,14 +29,14 @@ Our tests on the humanoid Talos in four representative scenarios show that SL1M 
 
 ## Materials
 
-**ICRA conference paper:** "SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain"
+**ICRA conference paper:** "SL1M: sparse L1-norm minimization for contact planning on uneven terrain"
 [Paper]({{ '/assets/pdf/tonneau2020sl1m.pdf' | relative_url }}) &middot;
 [Results video](https://youtu.be/gOQHI-YlOi0) &middot;
 [Slides (ppt)](https://stevetonneau.fr/files/presentations/sl1m/sl1m.pptx) &middot;
 [Slides (pdf)](https://stevetonneau.fr/files/presentations/sl1m/sl1m.pdf) &middot;
 [Presentation video (mp4)](https://stevetonneau.fr/files/presentations/sl1m/sl1m.mp4)
 
-**RA-L paper:** "Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization"
+**RA-L paper:** "Solving footstep planning as a feasibility problem using L1-norm minimization"
 [Paper](https://hal.science/hal-03435135/document) &middot;
 [YouTube video](https://youtu.be/tde1P7hLwsk)
 

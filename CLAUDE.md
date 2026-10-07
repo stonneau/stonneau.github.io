@@ -13,6 +13,10 @@ Jekyll site on the [al-folio](https://github.com/alshedivat/al-folio) v1.2 start
 - `_includes/youtube.liquid`: responsive YouTube embed.
 - `_pages/supervision.md`: CDT-D2AIR application info and the lists of current and past students and post-docs. **To update every year**: the intake, the deadline and the decision dates (copy them from https://www.cdt-d2air.uk/apply), and the student lists. The name links go to `/publications/#<lowercase name>`: the theme's publication filter only matches lowercase hashes. The same CDT deadline is repeated in `_news/2026-10-07-cdt-d2air-recruiting.md`.
 
+## Capitals
+
+Every page title and heading starts with a capital letter (the theme writes them in lowercase: `_sass/_custom.scss` and the front matter `title:` fix that). Titles and headings use sentence case: capital only on the first word and on names and acronyms (`MPC`, `Talos`, `L1-norm`). A word after a colon starts in lowercase, unless it is a name (`MEMMO: Memory of Motion`). Paper titles follow the same rule everywhere, in `papers.bib` and in the pages that quote them; protect acronyms and names with braces in the BibTeX title (`residual {MPC}`).
+
 ## Local preview
 
 `docker compose up` then open http://localhost:8080 (baseurl is empty). Deployment is by `.github/workflows/deploy.yml` on push to `main` (publishes the `gh-pages` branch).

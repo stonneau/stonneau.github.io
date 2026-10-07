@@ -31,7 +31,7 @@ The reduction breaks the algorithm complexity encountered in previous works, res
 [Paper](https://hal.science/hal-01267345/document) &middot;
 [Video](https://stevetonneau.fr/files/publications/ijrr16/tonneau_et_al_tro.mkv)
 
-**ISRR 2015 conference paper:** "A Reachability-based planner for sequences of acyclic contacts in cluttered environments"
+**ISRR 2015 conference paper:** "A reachability-based planner for sequences of acyclic contacts in cluttered environments"
 [Paper]({{ '/assets/pdf/tonneau2017reachability.pdf' | relative_url }}) &middot;
 [ISRR 2015 video](https://youtu.be/LmLAHgGQJGA)
 

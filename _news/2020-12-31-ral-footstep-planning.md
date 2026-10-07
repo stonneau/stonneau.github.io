@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Paper accepted (RA-L): "Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization"'
+title: 'Paper accepted (RA-L): "Solving footstep planning as a feasibility problem using L1-norm minimization"'
 date: 2020-12-31 12:00:00+0000
 inline: false
 related_posts: false

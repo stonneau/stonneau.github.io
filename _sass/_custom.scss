@@ -95,3 +95,35 @@ abbr.badge div {
     padding-right: 0.3rem;
   }
 }
+
+/******************************************************************************
+ * Capitals: every heading starts with a capital letter, including the ones the
+ * theme writes in lowercase (the "news" heading of the home page).
+ ******************************************************************************/
+
+h1::first-letter,
+h2::first-letter,
+h3::first-letter,
+h4::first-letter {
+  text-transform: uppercase;
+}
+
+// Publications: line under the filters ("Showing 7 of 45 publications. Reset filters")
+.pub-status {
+  font-size: 0.9rem;
+  margin: -0.25rem 0 1rem;
+  color: var(--global-text-color-light);
+
+  button {
+    background: none;
+    border: 0;
+    padding: 0;
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+}
