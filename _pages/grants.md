@@ -33,15 +33,11 @@ ENTRACTE studied the mathematical foundations of movement generation, by conduct
 
 **Award:** the project received the **Grand Prix du numérique de l'ANR** at the 2nd _Rencontres du numérique de l'ANR_ (16-17 November 2016), awarded to the coordinator Nicolas Mansard and presented by Antoine Petit, then CEO of Inria. See the [ANR report](https://anr.fr/fr/agenda/presentation-des-precedents-colloques/retour-sur-la-2eme-edition-des-rencontres-du-numerique-de-lanr/) and the [prize brochure](https://anr.fr/fileadmin/documents/2016/ANR_Prix-du-Numerique_BD.pdf).
 
-### TCS / National Robotarium (2024-2026)
-
-Principal investigator on a grant from Tata Consultancy Services (TCS) in collaboration with the [National Robotarium](https://thenationalrobotarium.com/) and Heriot-Watt University (2024-2026 according to the [University of Edinburgh research portal](https://www.research.ed.ac.uk/en/persons/steve-tonneau/)).
-
 ## Awards
 
 - **Étoiles de l'Europe** (2022), for the H2020 project MEMMO, French Ministry of Higher Education and Research.
 - **Grand Prix du numérique de l'ANR** (2016), for the ANR project ENTRACTE.
-- **RSI Exchanges Award** (2018).
+- **RSI Exchanges Award** (2018): funded a total of six months of mobility between the University of Edinburgh and LAAS-CNRS (France) during my post-doc.
 
 ## Other roles
 
