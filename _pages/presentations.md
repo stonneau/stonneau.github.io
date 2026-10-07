@@ -40,3 +40,11 @@ Here is a video recorded at the end of January 2019. The class proposes an itera
 [Slides (odp)](https://stevetonneau.fr/files/classes/contact_planner/conctact_planner.odp) &middot; [Slides (pdf)](https://stevetonneau.fr/files/classes/contact_planner/contact_planner.pdf)
 
 {% include youtube.liquid id="XUZIFw0NAm8" title="How to build a contact planner - Memmo winter school" %}
+
+## Workshops
+
+### Talos: status & progress (Humanoids 2020 workshop)
+
+I co-organised this online workshop at the IEEE-RAS International Conference on Humanoid Robots ([Humanoids 2020](https://humanoids-2020.org/)) with Alexander Werner (University of Waterloo) and Olivier Stasse (LAAS-CNRS). It brought together the groups working on torque-controlled humanoid robots such as Talos, to compare control approaches and to discuss how to improve their dynamic capabilities. Six Talos robots exist in the world (PAL Robotics, LAAS, IJS, Waterloo, INRIA and Edinburgh), and the workshop was meant to start collaborations between these labs. The full programme is on the [workshop website](https://talos-humanoid.github.io/humanoids2020_workshop/).
+
+**My talk: motion planning algorithms running on Talos** (interactive multi-contact planning for Talos). It presented two contributions: LEAS, a reinforcement learning framework that automatically plans guide paths for Talos in constrained environments (see [Learning to steer a locomotion contact planner](/publications/#chemin)), and [SL1M](/projects/sl1m/), a footstep planner that can be used reactively in challenging environments.
