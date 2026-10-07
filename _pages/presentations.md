@@ -15,6 +15,10 @@ Keynote at [MIG 2023](https://project.inria.fr/mig2023/) (ACM SIGGRAPH Conferenc
 
 {% include youtube.liquid id="3hqE37dCfhs" title="MIG 2023 keynote" %}
 
+### Motion planning algorithms running on Talos
+
+Invited talk at the workshop [Talos: status & progress](https://talos-humanoid.github.io/humanoids2020_workshop/), organised by Alexander Werner (University of Waterloo) and Olivier Stasse (LAAS-CNRS) at Humanoids 2020 (online). The workshop gathered the groups working on the Talos humanoid robot. The talk, listed in the programme as "Interactive multi contact planning algorithms for Talos", presented two contributions: LEAS, a reinforcement learning framework that automatically plans guide paths for Talos in constrained environments (see [Learning to steer a locomotion contact planner](/publications/#chemin)), and [SL1M](/projects/sl1m/), a footstep planner that can be used reactively in challenging environments.
+
 ### The 'contact planning problem' for legged robots: a cardinality minimisation approach
 
 In October 2020 I gave a presentation on our recent work with SL1M (see [below](#sl1m-sparse-l1-norm-minimization-for-contact-planning-on-uneven-terrain)) at [TUB](https://www.tu.berlin/). I was hosted by [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai//index.html) and [Andreas Orthey](https://sites.google.com/view/aorthey/). I made a few mistakes, amended in the comments of the [YouTube video](https://www.youtube.com/watch?v=qnvIrqgsW8U).
@@ -40,11 +44,3 @@ Here is a video recorded at the end of January 2019. The class proposes an itera
 [Slides (odp)](https://stevetonneau.fr/files/classes/contact_planner/conctact_planner.odp) &middot; [Slides (pdf)](https://stevetonneau.fr/files/classes/contact_planner/contact_planner.pdf)
 
 {% include youtube.liquid id="XUZIFw0NAm8" title="How to build a contact planner - Memmo winter school" %}
-
-## Workshops
-
-### Talos: status & progress (Humanoids 2020 workshop)
-
-I co-organised this online workshop at the IEEE-RAS International Conference on Humanoid Robots ([Humanoids 2020](https://humanoids-2020.org/)) with Alexander Werner (University of Waterloo) and Olivier Stasse (LAAS-CNRS). It brought together the groups working on torque-controlled humanoid robots such as Talos, to compare control approaches and to discuss how to improve their dynamic capabilities. Six Talos robots exist in the world (PAL Robotics, LAAS, IJS, Waterloo, INRIA and Edinburgh), and the workshop was meant to start collaborations between these labs. The full programme is on the [workshop website](https://talos-humanoid.github.io/humanoids2020_workshop/).
-
-**My talk: motion planning algorithms running on Talos** (interactive multi-contact planning for Talos). It presented two contributions: LEAS, a reinforcement learning framework that automatically plans guide paths for Talos in constrained environments (see [Learning to steer a locomotion contact planner](/publications/#chemin)), and [SL1M](/projects/sl1m/), a footstep planner that can be used reactively in challenging environments.
