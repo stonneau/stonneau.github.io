@@ -1,0 +1,193 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Global footstep planning | Steve Tonneau </title> <meta name="author" content="Steve Tonneau"> <meta name="description" content="NAS (Humanoids 2024) and CASSR (ICRA 2026)"> <meta name="keywords" content="robotics, motion planning, legged robots, multi-contact, computer graphics, University of Edinburgh"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A4%96&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://stonneau.github.io/projects/nas-cassr/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/al_email_protect/css/email-protect.css"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Steve</span> Tonneau </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/software/">software </a> </li> <li class="nav-item "> <a class="nav-link" href="/presentations/">presentations </a> </li> <li class="nav-item "> <a class="nav-link" href="/grants/">grants </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">contact </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Global footstep planning</h1> <p class="post-description">NAS (Humanoids 2024) and CASSR (ICRA 2026)</p> </header> <article> <p><strong>NAS:</strong> Jiayi Wang, Saeid Samadi, Hefan Wang, Pierre Fernbach, Olivier Stasse, Sethu Vijayakumar and Steve Tonneau<br> <strong>CASSR:</strong> Jiayi Wang and Steve Tonneau</p> <p><em>Humanoids 2024 and ICRA 2026</em></p> <p><img src="/assets/img/projects/nas-frames.jpg" alt="NAS: Talos in simulation (corridor, staircase) and on the real robot" style="max-width: 100%"></p> <h2 id="presentation">Presentation</h2> <p>Footstep planning is a combinatorial search problem: which surface each foot steps on, in what order, and where exactly on that surface. These two works tackle it from complementary angles, both with the humanoid robot Talos.</p> <p><strong>NAS</strong> computes <em>all</em> the solutions to the contact planning problem in a given number of steps, which yields a globally optimal policy that can be queried in real time to plan the next footsteps. <strong>CASSR</strong> searches for a contact sequence with A*, but propagates convex, continuous reachability constraints along the search instead of discretising them, which makes the search fast even with rotations.</p> <h2 id="abstracts">Abstracts</h2> <h3 id="nas-n-step-computation-of-all-solutions-to-the-footstep-planning-problem">NAS: N-step computation of All Solutions to the footstep planning problem</h3> <p>How many ways are there to climb a staircase in a given number of steps? Infinitely many, if we focus on the continuous aspect of the problem. A finite, possibly large number if we consider the discrete aspect, i.e. on which surface which effectors are going to step and in what order. We introduce NAS, an algorithm that considers both aspects simultaneously and computes all the possible solutions to such a contact planning problem, under standard assumptions. To our knowledge NAS is the first algorithm to produce a globally optimal policy, efficiently queried in real time for planning the next footsteps of a humanoid robot. Our empirical results (in simulation and on the Talos platform) demonstrate that, despite the theoretical exponential complexity, optimisations reduce the practical complexity of NAS to a manageable bilinear form, maintaining completeness guarantees and enabling efficient GPU parallelisation. NAS is demonstrated in a variety of scenarios for the Talos robot, both in simulation and on the hardware platform. Future work will focus on further reducing computation times and extending the algorithm’s applicability beyond gaited locomotion.</p> <h3 id="cassr-continuous-a-star-search-through-reachability-for-real-time-footstep-planning">CASSR: Continuous A-Star Search through Reachability for real time footstep planning</h3> <p><img src="/assets/img/projects/cassr-scenario.jpg" alt="CASSR: Talos planning a sequence of footsteps over stepping stones" style="max-width: 50%; float: right; margin: 0 0 1rem 1rem"></p> <p>Footstep planning involves a challenging combinatorial search. Traditional A* approaches require discretising reachability constraints, while Mixed-Integer Programming (MIP) supports continuous formulations but quickly becomes intractable, especially when rotations are included. We present CASSR, a novel framework that recursively propagates convex, continuous formulations of a robot’s kinematic constraints within an A* search. Combined with a new cost-to-go heuristic based on the EPA algorithm, CASSR efficiently plans contact sequences of up to 30 footsteps in under 125 ms. Experiments on biped locomotion tasks demonstrate that CASSR outperforms traditional discretised A* by up to a factor of 100, while also surpassing a commercial MIP solver. These results show that CASSR enables fast, reliable, and real-time footstep planning for biped robots.</p> <p><small>CASSR figure: Wang and Tonneau, arXiv:2603.02989, CC BY 4.0.</small></p> <h2 id="materials">Materials</h2> <p><strong>NAS</strong> (Humanoids 2024, Nancy, France) <a href="https://arxiv.org/pdf/2407.12962" rel="external nofollow noopener" target="_blank">Paper (arXiv)</a> · <a href="https://hal.science/hal-04730135/document" rel="external nofollow noopener" target="_blank">Paper (HAL)</a> · <a href="https://youtu.be/I5yFe0ez0sI" rel="external nofollow noopener" target="_blank">Video</a></p> <p><strong>CASSR</strong> (ICRA 2026) <a href="https://arxiv.org/pdf/2603.02989" rel="external nofollow noopener" target="_blank">Paper (arXiv)</a> · <a href="https://youtu.be/reDGK-VXg9k" rel="external nofollow noopener" target="_blank">Video</a></p> <p>BibTeX entries are available from the <a href="/publications/">publications</a> page. CASSR continues the line of work on contact planning started with <a href="/projects/sl1m/">SL1M</a>.</p> <h2 id="videos">Videos</h2> <p><strong>NAS</strong></p> <div style="position: relative; padding-top: 56.25%; margin: 1rem 0 1.5rem"> <iframe style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0" src="https://www.youtube-nocookie.com/embed/I5yFe0ez0sI" title="NAS: N-step computation of All Solutions to the footstep planning problem" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <p><strong>CASSR</strong></p> <div style="position: relative; padding-top: 56.25%; margin: 1rem 0 1.5rem"> <iframe style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0" src="https://www.youtube-nocookie.com/embed/reDGK-VXg9k" title="CASSR: Continuous A-Star Search through Reachability for real time footstep planning" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Steve Tonneau. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Groups of publications that share conceptual ideas or belong to the same research project.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Publications in reverse chronological order. A selection of PDFs is hosted here; the rest link to HAL, arXiv or the publisher.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-software",
+          title: "software",
+          description: "The main software projects where I have significantly contributed or that I use extensively.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
+        },{id: "nav-presentations",
+          title: "presentations",
+          description: "Talks and classes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/presentations/";
+          },
+        },{id: "nav-grants",
+          title: "grants",
+          description: "Funded projects I have been involved in, with their results, and the awards that came with them.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/grants/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "How to reach me at the University of Edinburgh.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitae (pdf).",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "news-new-position",
+          title: 'New position',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-01-01-new-position/";
+            },},{id: "news-paper-to-appear-in-transactions-on-robotics-t-ro",
+          title: 'Paper to appear in Transactions on Robotics (T-RO)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-01-20-tro-ccroc/";
+            },},{id: "news-videos-of-the-h2020-memmo-winter-school",
+          title: 'Videos of the H2020 Memmo winter school',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2019-03-28-memmo-winter-school/";
+            },},{id: "news-paper-accepted-for-icra-2020-quot-sl1m-sparse-l1-norm-minimization-for-contact-planning-on-uneven-terrain-quot",
+          title: 'Paper accepted for ICRA 2020: &amp;quot;SL1M: Sparse L1-norm Minimization for contact planning on...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2020-01-22-icra-sl1m/";
+            },},{id: "news-presentation-quot-the-contact-planning-problem-for-legged-robots-a-cardinality-minimisation-approach-quot",
+          title: 'Presentation: &amp;quot;The contact planning problem for legged robots: a cardinality minimisation approach&amp;quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2020-12-08-tub-presentation/";
+            },},{id: "news-paper-accepted-ra-l-quot-solving-footstep-planning-as-a-feasibility-problem-using-l1-norm-minimization-quot",
+          title: 'Paper accepted (RA-L): &amp;quot;Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization&amp;quot;...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2020-12-31-ral-footstep-planning/";
+            },},{id: "news-publication-section-updated",
+          title: 'Publication section updated',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022-06-07-publications-updated/";
+            },},{id: "news-keynote-at-mig-2023",
+          title: 'Keynote at MIG 2023',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024-02-08-mig-keynote/";
+            },},{id: "news-new-project-page-nas-and-cassr-footstep-planning",
+          title: 'New project page: NAS and CASSR, footstep planning',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-07-nas-cassr/";
+            },},{id: "news-cdt-d2air-is-recruiting-phd-students-september-2027-intake",
+          title: 'CDT-D2AIR is recruiting PhD students (September 2027 intake)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-10-07-cdt-d2air-recruiting/";
+            },},{id: "projects-an-efficient-acyclic-contact-planner-for-multiped-robots",
+          title: 'An efficient acyclic contact planner for multiped robots',
+          description: "T-RO 2018 and ISRR 2015",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/acyclic-contact-planner/";
+            },},{id: "projects-centroidal-trajectory-generation-as-a-feasibility-problem",
+          title: 'Centroidal trajectory generation as a feasibility problem',
+          description: "2PAC (TOG 2018), CROC (IROS 2018) and C-CROC (T-RO 2020)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/centroidal-trajectories/";
+            },},{id: "projects-global-footstep-planning",
+          title: 'Global footstep planning',
+          description: "NAS (Humanoids 2024) and CASSR (ICRA 2026)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nas-cassr/";
+            },},{id: "projects-l1-norm-minimisation-for-contact-planning",
+          title: 'L1-norm minimisation for contact planning',
+          description: "SL1M, ICRA 2020 and RA-L 2021",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sl1m/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/steve_tonneau_en.pdf", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/stonneau", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=Ju75W1sAAAAJ", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> <script defer src="/assets/al_email_protect/js/email-protect.js"></script> </body> </html>
