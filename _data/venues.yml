@@ -1,0 +1,64 @@
+# Colour of the venue badge shown next to each publication (the `abbr` field in papers.bib).
+# One colour per category, matching the tick boxes on the publications page:
+#   conferences = blue (#2a6fb0), journal = green (#2e8b57), other = grey (#6b6b6b).
+# A new `abbr` needs an entry here, with the colour of its category.
+
+# conferences & workshops
+"ICRA":
+  color: "#2a6fb0"
+
+"IROS":
+  color: "#2a6fb0"
+
+"Humanoids":
+  color: "#2a6fb0"
+
+"CoRL":
+  color: "#2a6fb0"
+
+"RSS":
+  color: "#2a6fb0"
+
+"ISRR":
+  color: "#2a6fb0"
+
+"MIG":
+  color: "#2a6fb0"
+
+"GI":
+  color: "#2a6fb0"
+
+"I3D":
+  color: "#2a6fb0"
+
+# journals
+"T-RO":
+  color: "#2e8b57"
+
+"RA-L":
+  color: "#2e8b57"
+
+"IEEE Access":
+  color: "#2e8b57"
+
+"TOG":
+  color: "#2e8b57"
+
+"CGF":
+  color: "#2e8b57"
+
+"C&G":
+  color: "#2e8b57"
+
+"Frontiers":
+  color: "#2e8b57"
+
+# other: preprints, thesis, editorials
+"arXiv":
+  color: "#6b6b6b"
+
+"Thesis":
+  color: "#6b6b6b"
+
+"Editorial":
+  color: "#6b6b6b"

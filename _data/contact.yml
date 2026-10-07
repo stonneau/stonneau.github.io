@@ -1,0 +1,3 @@
+# Used only by _pages/contact.md, through {% al_email_protect_link %} (obfuscated by protect_email: true).
+# Do not move it to socials.yml: the theme would then publish it in clear text.
+email: stonneau@ed.ac.uk

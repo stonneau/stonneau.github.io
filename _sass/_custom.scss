@@ -1,0 +1,85 @@
+/******************************************************************************
+ * Robots background
+ *
+ * Carried over from the previous site (HRP-2 and HyQ). The PNG has a constant
+ * ~17% alpha, so it fades into the page colour in both the light and dark
+ * themes without any extra overlay. The path is relative to assets/css/.
+ ******************************************************************************/
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("../img/hrp2hyq.png") 50% 0 / cover no-repeat;
+  // the PNG is ~17% opaque; this brings it to ~7% so the text stays easy to read
+  opacity: 0.4;
+}
+
+/******************************************************************************
+ * Links: the grey of the previous site (#57626a), which stays readable over the
+ * robots background (the default purple does not). Lighter grey in dark mode.
+ ******************************************************************************/
+
+:root {
+  --global-theme-color: #57626a;
+  --global-hover-color: #000000;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #b4bec6;
+  --global-hover-color: #ffffff;
+}
+
+/******************************************************************************
+ * Profile photo: smaller than the theme default (30% of the page width)
+ ******************************************************************************/
+
+.profile {
+  width: 10rem;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    margin: 0 auto 1rem !important;
+  }
+}
+
+/******************************************************************************
+ * Publications: type filter (conferences / journal / other), see
+ * _pages/publications.md
+ ******************************************************************************/
+
+.pub-type-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin: -0.5rem 0 1rem;
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+.pub-type-hidden {
+  display: none !important;
+}
+
+// Venue badges carry no link any more (venues.yml has colours only): keep their text white
+abbr.badge,
+abbr.badge div {
+  color: #fff !important;
+}
