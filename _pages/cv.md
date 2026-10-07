@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 description: Curriculum vitae (pdf).
 nav: true
-nav_order: 8
+nav_order: 9
 ---
 
 <p><a href="{{ '/assets/pdf/steve_tonneau_en.pdf' | relative_url }}">Download the CV (pdf)</a></p>

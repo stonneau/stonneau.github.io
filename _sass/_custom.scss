@@ -83,3 +83,15 @@ abbr.badge,
 abbr.badge div {
   color: #fff !important;
 }
+
+/******************************************************************************
+ * Navbar: nine menu entries, tighter spacing so they stay on one line next to
+ * the site name on desktop screens (the theme default padding is wider).
+ ******************************************************************************/
+
+@media (min-width: 576px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}

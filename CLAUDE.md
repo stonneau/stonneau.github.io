@@ -11,6 +11,7 @@ Jekyll site on the [al-folio](https://github.com/alshedivat/al-folio) v1.2 start
 - Venue badge colours: `_data/venues.yml`. Social links: `_data/socials.yml`. The e-mail address is in `_data/contact.yml` only (obfuscated on the contact page by `protect_email: true`); never add `email:` to `socials.yml`, the theme would print it in clear text on the home page and in the search palette.
 - Robots background: `assets/img/hrp2hyq.png`, applied in `_sass/_custom.scss`.
 - `_includes/youtube.liquid`: responsive YouTube embed.
+- `_pages/supervision.md`: CDT-D2AIR application info and the lists of current and past students and post-docs. **To update every year**: the intake, the deadline and the decision dates (copy them from https://www.cdt-d2air.uk/apply), and the student lists. The name links go to `/publications/#<lowercase name>`: the theme's publication filter only matches lowercase hashes. The same CDT deadline is repeated in `_news/2026-10-07-cdt-d2air-recruiting.md`.
 
 ## Local preview
 
