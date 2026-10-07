@@ -15,13 +15,9 @@ Keynote at [MIG 2023](https://project.inria.fr/mig2023/) (ACM SIGGRAPH Conferenc
 
 {% include youtube.liquid id="3hqE37dCfhs" title="MIG 2023 keynote" %}
 
-### Reduced models for legged locomotion: applications to motion planning, model predictive control and collision avoidance
-
-IPAB workshop, University of Edinburgh, 10 June 2021. How approximated models can tackle the non-linear, high-dimensional challenge of legged robot movement: turning a combinatorial problem of exponential complexity into a convex optimisation problem, and applying the same idea to model predictive control and collision-free motion generation. [Event page](https://www.edinburgh-robotics.org/events/ipab-workshop-reduced-models-legged-locomotion-applications-motion-planning-model-predictive).
-
 ### The 'contact planning problem' for legged robots: a cardinality minimisation approach
 
-In October 2020 I gave a presentation on our recent work with SL1M (see [below](#sl1m-sparse-l1-norm-minimization-for-contact-planning-on-uneven-terrain)) at [TUB](https://www.tu.berlin/). I was hosted by [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai//index.html) and [Andreas Orthey](https://sites.google.com/view/aorthey/). I made a few mistakes, amended in the comments of the [YouTube video](https://www.youtube.com/watch?v=qnvIrqgsW8U). I gave the same talk at the [IPAB workshop](https://www.edinburgh-robotics.org/events/ipab-workshop-contact-planning-problem-legged-robots-cardinality-minimisation-approach) in Edinburgh on 25 June 2020.
+In October 2020 I gave a presentation on our recent work with SL1M (see [below](#sl1m-sparse-l1-norm-minimization-for-contact-planning-on-uneven-terrain)) at [TUB](https://www.tu.berlin/). I was hosted by [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai//index.html) and [Andreas Orthey](https://sites.google.com/view/aorthey/). I made a few mistakes, amended in the comments of the [YouTube video](https://www.youtube.com/watch?v=qnvIrqgsW8U).
 
 [Slides (ppt)](https://stevetonneau.fr/files/presentations/tub20/tub20.pptx) &middot; [Slides (pdf)](https://stevetonneau.fr/files/presentations/tub20/tub20.pdf)
 
@@ -44,13 +40,3 @@ Here is a video recorded at the end of January 2019. The class proposes an itera
 [Slides (odp)](https://stevetonneau.fr/files/classes/contact_planner/conctact_planner.odp) &middot; [Slides (pdf)](https://stevetonneau.fr/files/classes/contact_planner/contact_planner.pdf)
 
 {% include youtube.liquid id="XUZIFw0NAm8" title="How to build a contact planner - Memmo winter school" %}
-
-## Media
-
-### RDV Tech 504: humanoid robotics special (podcast, in French)
-
-Episode of the technology podcast _Le rendez-vous Tech_, recorded on 14 March 2023 with Patrick Beja, Florent Forget, Céline Pieters and myself: where humanoid robotics stands, what it is useful for, and which problems it can solve or create. [Episode page](https://frenchspin.fr/2023/03/rdv-tech-504---special--robotique-humanoide/).
-
-## Workshops organised
-
-- **Towards a unified workflow for multi contact motion on legged robots: challenges in planning, optimization and control**, IROS 2016 (14 October 2016). Main organiser, with Timothy Bretl and Nicolas Mansard.
