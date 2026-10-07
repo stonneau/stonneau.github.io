@@ -3,7 +3,7 @@ layout: page
 title: An efficient acyclic contact planner for multiped robots
 description: T-RO 2018 and ISRR 2015
 img: assets/img/projects/acyclic-contact-planner.png
-importance: 3
+importance: 4
 category: planning
 ---
 

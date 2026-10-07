@@ -3,7 +3,7 @@ layout: page
 title: L1-norm minimisation for contact planning
 description: SL1M, ICRA 2020 and RA-L 2021
 img: assets/img/projects/sl1m.png
-importance: 1
+importance: 2
 category: planning
 ---
 

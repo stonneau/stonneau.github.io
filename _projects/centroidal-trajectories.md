@@ -3,7 +3,7 @@ layout: page
 title: Centroidal trajectory generation as a feasibility problem
 description: 2PAC (TOG 2018), CROC (IROS 2018) and C-CROC (T-RO 2020)
 img: assets/img/projects/centroidal-trajectories.gif
-importance: 2
+importance: 3
 category: planning
 ---
 

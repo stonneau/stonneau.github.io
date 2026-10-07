@@ -4,10 +4,10 @@ Jekyll site on the [al-folio](https://github.com/alshedivat/al-folio) v1.2 start
 
 ## Where things live
 
-- Pages: `_pages/` (home = `about.md`, contact, software, presentations, cv, publications, projects). Menu order is `nav_order` in each page.
+- Pages: `_pages/` (home = `about.md`, contact, software, presentations, grants, cv, publications, projects). Menu order is `nav_order` in each page.
 - Projects: `_projects/*.md` (cards on the projects page).
 - News: `_news/YYYY-MM-DD-slug.md`, shown on the home page.
-- Publications: `_bibliography/papers.bib` only. Edited by hand (no automatic sync with Google Scholar). Local PDFs go in `assets/pdf/` and are referenced by file name in the `pdf` field; anything heavy (videos, pptx, large PDFs) is linked from `https://stevetonneau.fr/files/...` instead of being copied here.
+- Publications: `_bibliography/papers.bib` only. Edited by hand (no automatic sync with Google Scholar). Give each entry a `video` (YouTube link when one exists) and, for a paper covered by a project page, a `website` field. The type filter on the publications page reads the BibTeX entry type (`@article` = journal, `@inproceedings`/`@incollection` = conference, arXiv preprints and editorials = other). Local PDFs go in `assets/pdf/` and are referenced by file name in the `pdf` field; anything heavy (videos, pptx, large PDFs) is linked from `https://stevetonneau.fr/files/...` instead of being copied here.
 - Venue badge colours: `_data/venues.yml`. Social links: `_data/socials.yml`. The e-mail address is in `_data/contact.yml` only (obfuscated on the contact page by `protect_email: true`); never add `email:` to `socials.yml`, the theme would print it in clear text on the home page and in the search palette.
 - Robots background: `assets/img/hrp2hyq.png`, applied in `_sass/_custom.scss`.
 - `_includes/youtube.liquid`: responsive YouTube embed.
