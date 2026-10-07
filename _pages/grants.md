@@ -7,6 +7,12 @@ nav: true
 nav_order: 6
 ---
 
+## Awards
+
+- **Étoiles de l'Europe** (2022), French Ministry of Higher Education and Research, for the H2020 project MEMMO. The prize rewards the coordinators of successful collaborative European research projects; it was handed to the MEMMO coordinator, Nicolas Mansard, at the Musée du quai Branly, Paris, on 6 December 2022. [Announcement](https://www.actuia.com/actualite/robotique-nicolas-mansard-coordinateur-du-projet-memmo-laureat-des-etoiles-de-leurope/).
+- **Grand Prix du numérique de l'ANR** (2016), for the ANR project ENTRACTE. Awarded at the 2nd _Rencontres du numérique de l'ANR_ (16-17 November 2016) to the coordinator, Nicolas Mansard, and presented by Antoine Petit, then CEO of Inria. [ANR report](https://anr.fr/fr/agenda/presentation-des-precedents-colloques/retour-sur-la-2eme-edition-des-rencontres-du-numerique-de-lanr/), [prize brochure](https://anr.fr/fileadmin/documents/2016/ANR_Prix-du-Numerique_BD.pdf).
+- **RSI Exchanges Award** (2018): funded a total of six months of mobility between the University of Edinburgh and LAAS-CNRS (France) during my post-doc.
+
 ## Projects
 
 ### MEMMO: Memory of Motion (H2020, 2018-2022)
@@ -21,7 +27,7 @@ MEMMO aims at generating complex movements for robots with any combination of ar
 - Three demonstrators: a humanoid robot (TALOS) performing locomotion and industrial tooling tasks for aircraft assembly, an exoskeleton walking with a paraplegic patient, and a quadruped robot doing an inspection task at a real construction site.
 - A class on building a contact planner, given at the MEMMO winter school: see [presentations](/presentations/).
 
-**Award:** the project received the **Étoiles de l'Europe** from the French Ministry of Higher Education and Research (ceremony on 6 December 2022, Musée du quai Branly, Paris). The prize rewards the coordinators of successful collaborative European research projects; it was handed to the MEMMO coordinator, Nicolas Mansard. See the [announcement](https://www.actuia.com/actualite/robotique-nicolas-mansard-coordinateur-du-projet-memmo-laureat-des-etoiles-de-leurope/).
+**Award:** [Étoiles de l'Europe](#awards) (2022).
 
 ### ENTRACTE: Understanding and planning anthropomorphic action (ANR, 2013-2017)
 
@@ -31,13 +37,7 @@ ENTRACTE studied the mathematical foundations of movement generation, by conduct
 
 **Results:** according to the [ANR prize brochure](https://anr.fr/fileadmin/documents/2016/ANR_Prix-du-Numerique_BD.pdf), the project led to 10 publications and 20 conference papers, including 3 in IEEE Transactions on Robotics, 1 in Computer Graphics Forum (Eurographics) and 2 in Communications of the ACM (one of them on the magazine cover), and to the organisation of two workshops, an IJCAI tutorial and an international conference in Toulouse. The project also ran a [fall school](https://gepettoweb.laas.fr/index.php/Teach/EntractFallSchool).
 
-**Award:** the project received the **Grand Prix du numérique de l'ANR** at the 2nd _Rencontres du numérique de l'ANR_ (16-17 November 2016), awarded to the coordinator Nicolas Mansard and presented by Antoine Petit, then CEO of Inria. See the [ANR report](https://anr.fr/fr/agenda/presentation-des-precedents-colloques/retour-sur-la-2eme-edition-des-rencontres-du-numerique-de-lanr/) and the [prize brochure](https://anr.fr/fileadmin/documents/2016/ANR_Prix-du-Numerique_BD.pdf).
-
-## Awards
-
-- **Étoiles de l'Europe** (2022), for the H2020 project MEMMO, French Ministry of Higher Education and Research.
-- **Grand Prix du numérique de l'ANR** (2016), for the ANR project ENTRACTE.
-- **RSI Exchanges Award** (2018): funded a total of six months of mobility between the University of Edinburgh and LAAS-CNRS (France) during my post-doc.
+**Award:** [Grand Prix du numérique de l'ANR](#awards) (2016).
 
 ## Other roles
 
