@@ -9,6 +9,8 @@ nav_order: 7
 
 ## Work with me
 
+> **Important: if you want to work with me**, please read [this note](/phd-applications/) first.
+
 My research is on contact-rich motion planning and control for legged robots and humanoids: contact planning, multi-contact locomotion, model predictive control and whole-body manipulation, with a link to computer graphics and character animation. The [projects](/projects/) and [publications](/publications/) pages show what this looks like in practice.
 
 The way to work with me as a PhD student is the **UKRI AI Centre for Doctoral Training in Dependable and Deployable AI for Robotics** ([CDT-D2AIR](https://www.cdt-d2air.uk/)). I am its deputy director.

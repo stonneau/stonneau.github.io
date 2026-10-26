@@ -35,4 +35,6 @@ Legged robots and humanoids, contact planning and multi-contact locomotion, moti
 
 ## Prospective students
 
+> **Important: if you want to work with me**, please read [this note](/phd-applications/) first.
+
 I am deputy director of the UKRI AI Centre for Doctoral Training in Dependable and Deployable AI for Robotics ([CDT-D2AIR](https://www.cdt-d2air.uk/)), and the CDT is the way to work with me as a PhD student. The [supervision](/supervision/) page explains how to apply, and lists the students and post-docs I work or have worked with. You can also get in touch through the [contact](/contact/) page.
